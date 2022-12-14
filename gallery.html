@@ -138,23 +138,21 @@
 				</div>
 				<div class="row animate-box">
 					<div class="col-md-10 col-md-offset-1">
-						<form action="https://formspree.io/f/xyyvrqqr" class="form-inline" method="POST">
-							<div class="col-md-4 col-sm-4">
-								<div class="form-group">
-									<label for="name" class="sr-only">Name</label>
-									<input type="name" class="form-control" id="name" placeholder="Name">
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div class="form-group">
-									<label for="email" class="sr-only">Email</label>
-									<input type="email" class="form-control" id="email" placeholder="Email">
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<button type="submit" class="btn btn-primary btn-block">I am Attending</button>
-							</div>
-						</form>
+						<form
+						action="https://formspree.io/f/xyyvrqqr"
+						method="POST"
+					  >
+						<label>
+						  Your email:
+						  <input type="email" name="email">
+						</label>
+						<label>
+						  Your message:
+						  <textarea name="message"></textarea>
+						</label>
+						<!-- your other form fields go here -->
+						<button type="submit">Send</button>
+					  </form>
 					</div>
 				</div>
 			</div>
