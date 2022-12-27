@@ -155,21 +155,23 @@
 				</div>
 				<div class="row animate-box">
 					<div class="col-md-10 col-md-offset-1">
-						<form
-  							action="https://formspree.io/f/moqbgoew"
-  							method="POST"
->
-  						<label>
-    					Your email:
-   						 <input type="email" name="email">
-  						</label>
-  						<label>
-   						 Your message:
-    					<textarea name="message"></textarea>
-  						</label>
-  					<!-- your other form fields go here -->
-  					<button type="submit">Send</button>
-					</form>
+						<form class="form-inline">
+							<div class="col-md-4 col-sm-4">
+								<div class="form-group">
+									<label for="name" class="sr-only">Name</label>
+									<input type="name" class="form-control" id="name" placeholder="Name">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="form-group">
+									<label for="email" class="sr-only">Email</label>
+									<input type="email" class="form-control" id="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<button type="submit" class="btn btn-primary btn-block">I am Attending</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -200,5 +202,19 @@
 	<script src="hhttps://www.google.com/maps/place/10006+Woodrow+St,+Vienna,+VA+22181,+Verenigde+Staten/data=!4m2!3m1!1s0x89b7b67fa34b5e83:0xf0ce4431021566bf?sa=X&ved=2ahUKEwjkwMWP5Jz7AhWD26QKHVGCANkQ8gF6BAgfEAE"></script>
 	<!-- jQuery -->
 	<script src="dist/scripts.min.js"></script>
+	<form
+    action="https://formspree.io/f/moqbgoew"
+    method="POST"
+  >
+    <label>
+      Your email:
+      <input type="email" name="email">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+    <!-- your other form fields go here -->
+    <button type="submit">Send</button>
 	</body>
 </html>
